@@ -1,0 +1,29 @@
+{
+  "Version": 1,
+  "RequestRateLimits": [
+    {
+      "RateLimitKeyType": "UserId$",
+      "RateLimitIdentifier": "",
+      "TotalTokenCount": 20,
+      "DurationInSeconds": 30
+    },
+    {
+      "RateLimitKeyType": "UserId$Ip$",
+      "RateLimitIdentifier": "",
+      "TotalTokenCount": 20,
+      "DurationInSeconds": 10
+    },
+    {
+      "RateLimitKeyType": "Ip$",
+      "RateLimitIdentifier": "",
+      "TotalTokenCount": 35,
+      "DurationInSeconds": 10
+    },
+    {
+      "RateLimitKeyType": "SessionId$",
+      "RateLimitIdentifier": "",
+      "TotalTokenCount": 40,
+      "DurationInSeconds": 10
+    }
+  ]
+}
